@@ -20,13 +20,29 @@
   margin: 0;
   padding: 0;
 }
+body{
+  overflow-y: hidden;
+  ::-webkit-scrollbar{
+    display: none;
+  }
 
+  -ms-overflow-style: none;
+}
 .chat-room {
-  overflow-y: scroll;
   height: 100vh;
 
+  #messages{
+    overflow-y: scroll;
+    height: 100%;
+    padding-bottom: 200px;
+  }
+
+  .navbar{
+    border-bottom: 1px solid #eeeeee;
+    margin-left: -15px;
+    width: calc(100% + 30px);
+  }
   .message {
-    //display: inline-block;
     min-height: 59px;
 
     .content-container {
@@ -61,7 +77,10 @@
     position: absolute;
     bottom: 0;
     padding: 20px;
-    width: calc(100% - 15px);
+    width: 100%;
+    margin-left: -15px;
+    background-color: white;
+    border-top: 1px solid #eeeeee;
 
     input[type=text] {
       height: 45px;
@@ -74,4 +93,40 @@
 
     }
   }
+}
+.card.no-outline{
+  border: none;
+}
+.room-link{
+  &:hover {
+    text-decoration: none;
+  }
+}
+.room-card{
+  border-radius: 20px;
+  transition: background-color 0.5s ease;
+  &:hover{
+    background-color: #eeeeee;
+  }
+  &.active{
+    background-color: black;
+    .name{
+      color: white;
+    }
+    .member-count{
+      color: #e0e0e0;
+    }
+  }
+  .name {
+    font-weight: bold;
+    color: black;
+  }
+  .member-count{
+    color: #777777;
+    font-weight: lighter;
+  }
+}
+
+.rooms-sidebar{
+  border-right: 1px solid #eeeeee;
 }

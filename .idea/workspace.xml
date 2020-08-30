@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3695b158-33fb-40e1-af91-7bd3245d876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/jobs/send_message_job.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/messages/_message.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/messages/_mine.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/messages/_theirs.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/messages_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/messages_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/javascript/channels/room_channel.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/javascript/channels/room_channel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/room.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/room.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/_form.html.erb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/rooms/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/rooms/index.html.erb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -206,7 +201,7 @@
       <workItem from="1598104157323" duration="17654000" />
       <workItem from="1598243283727" duration="5457000" />
       <workItem from="1598765452283" duration="626000" />
-      <workItem from="1598770210194" duration="701000" />
+      <workItem from="1598770210194" duration="3674000" />
     </task>
     <task id="LOCAL-00001" summary="ui visualized">
       <created>1598178921207</created>
@@ -215,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1598178921207</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="chat functionality added">
+      <created>1598770935943</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1598770935943</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -224,7 +226,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="ui visualized" />
-    <option name="LAST_COMMIT_MESSAGE" value="ui visualized" />
+    <MESSAGE value="chat functionality added" />
+    <option name="LAST_COMMIT_MESSAGE" value="chat functionality added" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1010" y="215" width="800" height="684" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598243504431">
@@ -235,10 +238,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1173" y="298" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1598157619624" />
-    <state x="987" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598178921021">
+    <state x="987" y="101" width="912" height="911" key="CommitChangelistDialog2" timestamp="1598770935740">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="987" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598178921021" />
+    <state x="987" y="101" width="912" height="911" key="CommitChangelistDialog2/0.27.1920.1053@0.27.1920.1053" timestamp="1598770935740" />
     <state x="1230" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1598178223014">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -299,10 +302,10 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="1079" y="252" width="672" height="677" key="run.anything.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598176659935" />
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598246064404">
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup" timestamp="1598772293885">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598246064404" />
+    <state x="1110" y="259" width="672" height="678" key="search.everywhere.popup/0.27.1920.1053@0.27.1920.1053" timestamp="1598772293885" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rails_new_chat_room@Development__rails_new_chat_room.rcov" NAME="Development: rails-new-chat-room Coverage Results" MODIFIED="1598770547770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-new-chat-room" />
