@@ -22,7 +22,7 @@
 }
 
 .chat-room {
-  overflow-y: hidden;
+  overflow-y: scroll;
   height: 100vh;
 
   .message {

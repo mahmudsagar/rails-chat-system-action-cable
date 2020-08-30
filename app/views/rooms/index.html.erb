@@ -1,5 +1,8 @@
+<div id="room-id" data-room-id="<%= @room.try(:id) %>"></div>
+<div id="user-id" data-user-id="<%= current_user.id %>"></div>
+
 <div class="container-fluid">
-<!--  <p id="notice"><%#= notice %></p>-->
+  <!--  <p id="notice"><%#= notice %></p>-->
   <div class="row">
     <div class="col-3">
       <%= render 'form', room: Room.new %>
@@ -25,18 +28,12 @@
               <li class="nav-item">Hello, <%= current_user.username %></li>
             </ul>
           </nav>
-          <% @room.messages.each do |message| %>
-            <div class="message mb-2 <%= 'me' if  message.user == current_user%>">
-              <div class="content-container">
-                <div class="content">
-                  <%= message.content %>
-                </div>
-                <div class="author">
-                  <%= message.user.username %>
-                </div>
-              </div>
-            </div>
-          <% end %>
+          <div id="messages">
+            <% @room.messages.each do |message| %>
+              <%= render 'messages/message', message: message %>
+            <% end %>
+          </div>
+
           <div class="chat-box">
             <%= render 'messages/form', message: Message.new, room: @room %>
           </div>
