@@ -15,6 +15,7 @@
  */
 
 @import "bootstrap";
+@import "font_awesome5_webfont";
 
 * {
   margin: 0;
@@ -129,4 +130,12 @@ body{
 
 .rooms-sidebar{
   border-right: 1px solid #eeeeee;
+}
+
+.activity-status{
+  margin-right: 4px;
+  color: #e0e0e0;
+  &.online{
+    color: #64dd17;
+  }
 }
