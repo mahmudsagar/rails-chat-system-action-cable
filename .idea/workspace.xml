@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3695b158-33fb-40e1-af91-7bd3245d876d" name="Default Changelist" comment="database changed">
+    <list default="true" id="3695b158-33fb-40e1-af91-7bd3245d876d" name="Default Changelist" comment="procfile added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +65,7 @@
       <command value="bundle update" />
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: rails-new-chat-room">
+  <component name="RunManager" selected="Rails.Production: rails-new-chat-room">
     <configuration name="irb" type="IrbRunConfigurationType" factoryName="IRB console" temporary="true">
       <module name="rails-new-chat-room" />
       <IRB_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
@@ -215,7 +214,7 @@
       <workItem from="1601641333576" duration="996000" />
       <workItem from="1601642918794" duration="16000" />
       <workItem from="1615648036552" duration="115000" />
-      <workItem from="1615648174897" duration="3329000" />
+      <workItem from="1615648174897" duration="4051000" />
     </task>
     <task id="LOCAL-00001" summary="ui visualized">
       <created>1598178921207</created>
@@ -252,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615649899095</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="procfile added">
+      <created>1615651952209</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615651952209</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,9 +282,11 @@
     <MESSAGE value="stylized" />
     <MESSAGE value="Chat System complete" />
     <MESSAGE value="database changed" />
-    <option name="LAST_COMMIT_MESSAGE" value="database changed" />
+    <MESSAGE value="procfile added" />
+    <option name="LAST_COMMIT_MESSAGE" value="procfile added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rails_new_chat_room@Production__rails_new_chat_room.rcov" NAME="Production: rails-new-chat-room Coverage Results" MODIFIED="1615652391567" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-new-chat-room" />
     <SUITE FILE_PATH="coverage/rails_new_chat_room@Development__rails_new_chat_room.rcov" NAME="Development: rails-new-chat-room Coverage Results" MODIFIED="1601641339886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-new-chat-room" />
     <SUITE FILE_PATH="coverage/rails_new_chat_room@irb.rcov" NAME="irb Coverage Results" MODIFIED="1598167133431" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-new-chat-room" />
   </component>

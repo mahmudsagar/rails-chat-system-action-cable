@@ -80,6 +80,6 @@ test:
 #
 production:
   <<: *default
-  database: rails-chatroom
-  username: rails-chatroom
+  database: final_project_production
+  username: final_project
   password: <%= ENV['FINAL_PROJECT_DATABASE_PASSWORD'] %>
