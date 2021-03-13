@@ -219,7 +219,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.2)
   pg
-  puma (~> 4.1)
+  puma (~> 4.ec)
   rails (~> 6.0.3, >= 6.0.3.2)
   redis (~> 4.0)
   sass-rails (>= 6)

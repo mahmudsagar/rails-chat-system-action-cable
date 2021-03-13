@@ -4,17 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3695b158-33fb-40e1-af91-7bd3245d876d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/jobs/send_message_job_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/rails-new-chat-room.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-new-chat-room.iml" afterDir="false" />
+    <list default="true" id="3695b158-33fb-40e1-af91-7bd3245d876d" name="Default Changelist" comment="database changed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/database.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/database.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +215,7 @@
       <workItem from="1601641333576" duration="996000" />
       <workItem from="1601642918794" duration="16000" />
       <workItem from="1615648036552" duration="115000" />
-      <workItem from="1615648174897" duration="1702000" />
+      <workItem from="1615648174897" duration="3329000" />
     </task>
     <task id="LOCAL-00001" summary="ui visualized">
       <created>1598178921207</created>
@@ -252,11 +245,29 @@
       <option name="project" value="LOCAL" />
       <updated>1600575411203</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="database changed">
+      <created>1615649899094</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615649899095</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
@@ -264,7 +275,8 @@
     <MESSAGE value="chat functionality added" />
     <MESSAGE value="stylized" />
     <MESSAGE value="Chat System complete" />
-    <option name="LAST_COMMIT_MESSAGE" value="Chat System complete" />
+    <MESSAGE value="database changed" />
+    <option name="LAST_COMMIT_MESSAGE" value="database changed" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/rails_new_chat_room@Development__rails_new_chat_room.rcov" NAME="Development: rails-new-chat-room Coverage Results" MODIFIED="1601641339886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-new-chat-room" />
